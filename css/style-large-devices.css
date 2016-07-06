@@ -3,7 +3,12 @@ body{
     margin: 0 auto;
     font-size: 16px;
     font-family: 'Arvo', serif;
+}
 
+*{
+    -webkit-transition:all .55s ;
+    -moz-transition:all .55s ;
+    -o-transition:all .55s ;
 }
 
 ul{
