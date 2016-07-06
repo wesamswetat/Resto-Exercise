@@ -1,12 +1,5 @@
 
-body {
-    overflow: hidden;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+
 
 /*########################################### ===> SECTION HEADER START <===== ######### */
 
@@ -31,3 +24,102 @@ body {
 
 
 /*########################################### ===> SECTION THE MENU <===== ######### */
+
+.the-menu{
+    width: 90%;
+}
+
+/*########################################### ===> SECTION FEATURED DISHES <===== ######### */
+
+.featured-dishes{
+    width: 90%;
+}
+
+.featured-dishes > div{
+    display: block;
+    justify-content: space-between;
+}
+
+.featured-dishes div  div{
+    width: 45%;
+}
+
+.featured-dishes div div{
+    -webkit-box-sizing: border-box;
+    padding: 5%;
+}
+
+.featured-dishes > div > div span {
+    font-size: 0.75em;
+    margin-bottom: 16px;
+}
+#featured-dishes-div-img1 , #featured-dishes-div-img3{
+    float: left;
+}
+
+#featured-dishes-div-img2 , #featured-dishes-div-img4{
+    float: right;
+}
+
+/*########################################### ===> SECTION THE GALLERY <===== ######### */
+
+.the-gallery{
+    width: 90%;
+}
+
+.the-gallery .the-gallery-div img{
+    width: 30%;
+    height: 150px;
+    float: left;
+}
+
+.the-gallery .the-gallery-div  #gallery-img1{
+    width: 40%;
+    height: 300px;
+}
+
+/*########################################### ===> SECTION THE FOOTER <===== ######### */
+
+footer {
+    margin-top: 200px;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 70px 5%;
+    overflow: hidden;
+    display: block;
+    justify-content: flex-start;
+
+}
+
+footer div {
+    width: 50%;
+    text-align: center;
+}
+
+footer .footer-1-ul ul, footer .footer-2-ul ul{
+    margin-bottom: 70px;
+}
+
+footer .footer-1-ul , footer .footer-3-ul{
+    float: left;
+}
+
+footer .footer-logo-ul , footer .footer-2-ul{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+footer div ul li{
+    list-style: none;
+    color: #9e9d9d;
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+
+footer div ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+}

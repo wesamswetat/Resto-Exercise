@@ -25,3 +25,52 @@
 
 
 /*########################################### ===> SECTION THE MENU <===== ######### */
+
+.the-menu{
+    width: 95%;
+}
+
+.the-menu .left{
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    padding: 0;
+
+}
+
+.the-menu .right{
+    width: 100%;
+    overflow: hidden;
+    margin:0 ;
+    padding: 0;
+}
+
+/*########################################### ===> SECTION FEATURED DISHES <===== ######### */
+
+.featured-dishes{
+    width: 95%;
+}
+
+
+
+
+/*########################################### ===> SECTION THE GALLERY <===== ######### */
+
+.the-gallery{
+    width: 95%;
+}
+
+/*########################################### ===> SECTION THE FOOTER <===== ######### */
+footer {
+
+    padding: 70px 2.5%;
+
+}
+
+footer div ul li{
+    font-size: 0.8em;
+}
+
+footer div ul li a{
+    font-size: 1em;
+}

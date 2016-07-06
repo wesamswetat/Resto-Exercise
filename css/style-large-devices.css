@@ -6,6 +6,11 @@ body{
 
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+}
+
 /*########################################### ===> SECTION HEADER START <===== ######### */
 
 .header header  {
@@ -79,7 +84,7 @@ body{
 .the-menu{
     width: 80%;
     overflow: hidden;
-    margin:70px auto;
+    margin:70px auto 130px auto;
 
 }
 
@@ -107,7 +112,7 @@ body{
 
 }
 
-.the-menu .right .main-dinner p , .the-menu .left .main-dinner p{
+.the-menu .right .main-dinner p , .the-menu .left .main-dinner .menu-dinner{
     float: left;
     padding: 0;
     margin:0 ;
@@ -117,6 +122,7 @@ body{
     font-size: 1.3em;
     background-color: #fff;
 }
+
 
 .the-menu .right .main-dinner span , .the-menu .left .main-dinner span{
     float: right;
@@ -138,3 +144,122 @@ body{
     color: rgba(0,0,0,0.4);
     font-size: 0.9em;
 }
+
+/*########################################### ===> SECTION FEATURED DISHES <===== ######### */
+
+.featured-dishes-title:after , .the-gallery-title:after{
+    content: '';
+    border-bottom: solid;
+    width: 10em;
+    margin-left: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.18);
+}
+
+.featured-dishes-title{
+    margin-bottom: 70px;
+}
+
+.featured-dishes{
+    width: 80%;
+    margin: 30px auto 130px auto;
+    overflow: hidden;
+}
+
+.featured-dishes > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-dishes div div{
+    display: inline-block;
+    width: 24%;
+}
+
+.featured-dishes div div img{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+
+.featured-dishes > div > div >span {
+    font-size: 0.85em;
+    float: left;
+}
+
+.featured-dishes > div > div > span + span {
+    float: right;
+    font-size: 0.85em;
+}
+
+.featured-dishes > div > div > div {
+    display: none;
+}
+
+/*########################################### ===> SECTION THE GALLERY <===== ######### */
+
+.the-gallery{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.the-gallery .the-gallery-title{
+    margin-bottom: 70px;
+}
+
+.the-gallery .the-gallery-div{
+    overflow: hidden;
+    clear: both;
+}
+
+.the-gallery .the-gallery-div img{
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.the-gallery .the-gallery-div  #gallery-img1{
+    width: 40%;
+    height: 400px;
+}
+
+/*########################################### ===> SECTION THE FOOTER <===== ######### */
+
+footer {
+    margin-top: 200px;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 70px 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    float: left;
+}
+
+footer .footer-logo-ul{
+    float: right;
+}
+
+footer div ul li{
+    list-style: none;
+    color: #9e9d9d;
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+
+footer div ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+
+
+
+

@@ -72,3 +72,86 @@
 
 
 /*########################################### ===> SECTION THE MENU <===== ######### */
+
+
+/* @@@@@   @@@@     NO CHANGES @@@@@@*/
+
+
+/*########################################### ===> SECTION FEATURED DISHES <===== ######### */
+
+.featured-dishes > div  > div{
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    -webkit-box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    overflow: hidden;
+    clear: both;
+}
+
+.featured-dishes div div img{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.featured-dishes > div > div > span{
+    display: none;
+}
+
+.featured-dishes > div > div > span + span{
+    display: none;
+}
+
+.featured-dishes > div  > div > div{
+    display: block;
+    float: right;
+}
+
+.featured-dishes > div  > div > div p{
+    font-size: 0.85em;
+    margin: 0;
+}
+
+.featured-dishes > div  > div > div p + p{
+    font-size: 0.85em;
+    margin-top: 10px;
+}
+
+
+/*########################################### ===> SECTION THE GALLERY <===== ######### */
+
+
+
+
+.the-gallery .the-gallery-div img{
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.the-gallery .the-gallery-div  #gallery-img1{
+    display: none;
+}
+
+
+/*########################################### ===> SECTION THE FOOTER <===== ######### */
+
+footer div {
+    width: 100%;
+    text-align: center;
+}
+
+footer div ul, footer {
+    margin-bottom: 45px;
+}
+
+footer .footer-1-ul , footer .footer-3-ul{
+    float: none;
+}
+
+footer .footer-logo-ul , footer .footer-2-ul{
+    float: none;
+}
