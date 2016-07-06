@@ -1,0 +1,74 @@
+/*########################################### ===> SECTION HEADER START <===== ######### */
+
+.header .nave-head .normal-menu {
+    display: none;
+}
+
+.nave-head {
+
+}
+
+.menu-for-ham {
+    float: right;
+    display: inline;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-for-ham .ham-img {
+    height: 32px;
+    width: 42px;
+    display: block;
+}
+
+.menu-for-ham li {
+    list-style: none;
+}
+
+.menu-for-ham li ul {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: rgba(195,195,195,0.9);
+}
+
+.menu-for-ham li ul li {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-for-ham li ul li a {
+    display: block;
+    margin: 0 0;
+    padding: 10px;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    color: rgba(244,67,54,0.9);
+    border-bottom: 1px solid #000;
+}
+
+.menu-for-ham li ul li a:hover{
+    background: rgba(195,195,195,1);
+    color: rgba(244,67,54,1);
+    font-size: 1.1em;
+}
+
+.menu-for-ham li:hover > ul {
+    display: block;
+
+}
+
+
+/*########################################### ===> SECTION tow-main-imags <===== ######### */
+
+
+/* @@@@@   @@@@     NO CHANGES @@@@@@*/
+
+
+
+/*########################################### ===> SECTION THE MENU <===== ######### */

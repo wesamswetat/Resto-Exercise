@@ -1,0 +1,33 @@
+
+body {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*########################################### ===> SECTION HEADER START <===== ######### */
+
+.header {
+    margin: 20px 0;
+}
+
+.header header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header .nave-head .normal-menu li {
+    margin-left: 25px;
+}
+
+/*########################################### ===> SECTION tow-main-imags <===== ######### */
+
+
+/* @@@@@   @@@@     NO CHANGES @@@@@@*/
+
+
+
+/*########################################### ===> SECTION THE MENU <===== ######### */

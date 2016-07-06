@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+
+}
+
+/*########################################### ===> SECTION HEADER START <===== ######### */
+
+.header header  {
+    overflow: hidden;
+    clear: both;
+}
+
+.header{
+    margin: 30px 0;
+}
+
+.header header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header header  .logo-img{
+    float: left;
+}
+
+.ham-img{
+    display: none;
+}
+
+.menu-for-ham{
+    display: none;
+}
+
+.menu-for-ham li ul{
+    display: none;
+}
+
+.header .nave-head .normal-menu {
+    float: right;
+    margin:5px 0 0 0;
+    padding: 0;
+}
+
+.header .nave-head .normal-menu li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+}
+
+
+.header .nave-head .normal-menu li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-family: 'Arvo', serif;
+    font-size: 1em;
+}
+
+/*########################################### ===> SECTION tow-main-imags <===== ######### */
+
+.tow-main-imags{
+    width: 100%;
+    margin: 0 auto;
+}
+.tow-main-imags #img1{
+    width: 100%;
+}
+
+.tow-main-imags #img2{
+    display: block;
+    margin: 0 auto;
+}
+
+/*########################################### ===> SECTION THE MENU <===== ######### */
+
+.the-menu{
+    width: 80%;
+    overflow: hidden;
+    margin:70px auto;
+
+}
+
+.the-menu .left{
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin:0 auto;
+    padding: 0;
+
+}
+
+.the-menu .right{
+    float: right;
+    width: 45%;
+    overflow: hidden;
+    margin:0 ;
+    padding: 0;
+}
+
+.main-dinner{
+    background-image: url("../img/line.png");
+    overflow: hidden;
+    clear: both;
+
+}
+
+.the-menu .right .main-dinner p , .the-menu .left .main-dinner p{
+    float: left;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+    clear: both;
+    color: rgba(0,0,0,0.7);
+    font-size: 1.3em;
+    background-color: #fff;
+}
+
+.the-menu .right .main-dinner span , .the-menu .left .main-dinner span{
+    float: right;
+    padding: 0;
+    margin:0 ;
+    color: rgba(0,0,0,0.7);
+    font-size: 1.3em;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main-dinner-desc p{
+    float: left;
+    padding: 0;
+    margin:0 ;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 40px;
+    color: rgba(0,0,0,0.4);
+    font-size: 0.9em;
+}
