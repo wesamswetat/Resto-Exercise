@@ -52,12 +52,26 @@
 }
 
 
-
+.featured-dishes div div {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 5px;
+}
 
 /*########################################### ===> SECTION THE GALLERY <===== ######### */
 
 .the-gallery{
     width: 95%;
+}
+
+
+.the-gallery .the-gallery-div img{
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+
+.the-gallery .the-gallery-div  #gallery-img1{
+    display: none;
 }
 
 /*########################################### ===> SECTION THE FOOTER <===== ######### */
