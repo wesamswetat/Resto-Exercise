@@ -90,6 +90,13 @@
     clear: both;
 }
 
+.featured-dishes > div  > div .only-for-extra-small-dev{
+
+    border: none;
+
+}
+
+
 .featured-dishes div div img{
     width: 50%;
     padding: 0;
@@ -144,12 +151,11 @@ footer div {
     text-align: center;
 }
 
-footer div ul, footer {
-    margin-bottom: 45px;
-}
+
 
 footer .footer-1-ul , footer .footer-3-ul{
     float: none;
+    margin-bottom: 45px;
 }
 
 footer .footer-logo-ul , footer .footer-2-ul{

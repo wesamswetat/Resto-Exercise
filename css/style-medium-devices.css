@@ -51,7 +51,7 @@
     width: 45%;
 }
 
-.featured-dishes div div{
+.featured-dishes div > div{
     -webkit-box-sizing: border-box;
     padding: 5%;
 }
