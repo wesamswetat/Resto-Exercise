@@ -150,6 +150,17 @@ ul{
     font-size: 0.9em;
 }
 
+.the-menu > button{
+    margin:60px 0 0 40% ;
+    width: 20%;
+    background: none;
+    border: 3px solid  rgba(0,0,0,0.4);
+    padding: 10px 30px;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
 /*########################################### ===> SECTION FEATURED DISHES <===== ######### */
 
 .featured-dishes-title:after , .the-gallery-title:after{
